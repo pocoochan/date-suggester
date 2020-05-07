@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E33CD1E0C8EE33EEE99BA6 /* Pods_date_suggester_iOS_date_suggester_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EC67D90F93A7F0AED33027 /* Pods_date_suggester_iOS_date_suggester_iOSUITests.framework */; };
+		446AC2975B223663913AA477 /* Pods_date_suggester_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93D0B8ADE6B69E81562A181 /* Pods_date_suggester_iOSTests.framework */; };
+		720D07F823E984AE00569622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D07F723E984AE00569622 /* AppDelegate.swift */; };
+		720D07FA23E984AE00569622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D07F923E984AE00569622 /* SceneDelegate.swift */; };
+		720D07FC23E984AE00569622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D07FB23E984AE00569622 /* ViewController.swift */; };
+		720D07FF23E984AE00569622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720D07FD23E984AE00569622 /* Main.storyboard */; };
+		720D080123E984AE00569622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720D080023E984AE00569622 /* Assets.xcassets */; };
+		720D080423E984AE00569622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720D080223E984AE00569622 /* LaunchScreen.storyboard */; };
+		720D080F23E984AE00569622 /* date_suggester_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D080E23E984AE00569622 /* date_suggester_iOSTests.swift */; };
+		720D081A23E984AF00569622 /* date_suggester_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D081923E984AF00569622 /* date_suggester_iOSUITests.swift */; };
+		720D082C23E9A84E00569622 /* TutorialViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720D082B23E9A84D00569622 /* TutorialViewController.storyboard */; };
+		721336EA240CE48400F8E967 /* CustomUnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721336E9240CE48400F8E967 /* CustomUnderlineTextField.swift */; };
+		7214C7892434802C003EA80B /* userIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7214C7882434802C003EA80B /* userIcon.svg */; };
+		7214C78B24348E60003EA80B /* MypageNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7214C78A24348E60003EA80B /* MypageNavigationController.swift */; };
+		7215FF14240D600400AB3BBB /* SignUpCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215FF13240D600400AB3BBB /* SignUpCustomTextField.swift */; };
+		721D100123F509DD006DA520 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721D100023F509DD006DA520 /* MypageViewController.swift */; };
+		721D100323F50E6A006DA520 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721D100223F50E6A006DA520 /* UIColorHex.swift */; };
+		7229FA6524617ABA00D9FD2B /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7229FA6424617ABA00D9FD2B /* UserDefault.swift */; };
+		724C39CF2452C5500028652A /* UserArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724C39CE2452C5500028652A /* UserArea.swift */; };
+		72513F5C23EBCFA9007B1499 /* DateFeelingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72513F5B23EBCFA9007B1499 /* DateFeelingViewController.swift */; };
+		725E5B74243C0D4B006CC332 /* MyProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725E5B73243C0D4B006CC332 /* MyProfileEditViewController.swift */; };
+		725F851A244D9E5000E08ADE /* CustomPlofielTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8519244D9E5000E08ADE /* CustomPlofielTextField.swift */; };
+		726903EF2431DB4F006312E6 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 726903EC2431DAF5006312E6 /* NotoSans-Bold.ttf */; };
+		726903F02431DB4F006312E6 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 726903EE2431DAF6006312E6 /* NotoSans-BoldItalic.ttf */; };
+		726903F12431DB4F006312E6 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 726903ED2431DAF6006312E6 /* NotoSans-Italic.ttf */; };
+		726903F22431DB4F006312E6 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 726903EB2431DAF5006312E6 /* NotoSans-Regular.ttf */; };
+		7276AEE023EAA9B7008864D7 /* DateLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEDF23EAA9B7008864D7 /* DateLocationViewController.swift */; };
+		7276AEE323EAA9DE008864D7 /* SimplePlanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7276AEE223EAA9DE008864D7 /* SimplePlanViewController.storyboard */; };
+		7276AEE523EAACC0008864D7 /* DatePlanSuggestionViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEE423EAACC0008864D7 /* DatePlanSuggestionViewControlller.swift */; };
+		7276AEEA23EABC17008864D7 /* MainPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7276AEE923EABC17008864D7 /* MainPageViewController.storyboard */; };
+		7276AEEC23EACE65008864D7 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEEB23EACE65008864D7 /* MainPageViewController.swift */; };
+		7276AEEE23EAD1B1008864D7 /* DateplanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEED23EAD1B1008864D7 /* DateplanListViewController.swift */; };
+		7276AEF023EAD63C008864D7 /* DatePlanDecideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEEF23EAD63C008864D7 /* DatePlanDecideViewController.swift */; };
+		7276AEF223EBBB99008864D7 /* DateScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEF123EBBB99008864D7 /* DateScheduleViewController.swift */; };
+		7276AEF423EBC1CD008864D7 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEF323EBC1CD008864D7 /* AppNavigationController.swift */; };
+		7276AEF623EBCADE008864D7 /* DateBudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEF523EBCADE008864D7 /* DateBudgetViewController.swift */; };
+		7276AEF823EBCE4A008864D7 /* DateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276AEF723EBCE4A008864D7 /* DateTimeViewController.swift */; };
+		727C4A5B240362300058AE58 /* AnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C4A5A240362300058AE58 /* AnswerModel.swift */; };
+		727C4A5D240362890058AE58 /* CustomYerrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C4A5C240362890058AE58 /* CustomYerrowButton.swift */; };
+		7281E60A241F4F5100886634 /* MyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7281E609241F4F5100886634 /* MyPlan.swift */; };
+		7281E60C241F4FB200886634 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7281E60B241F4FB200886634 /* Plan.swift */; };
+		7281E60E241F502900886634 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7281E60D241F502900886634 /* Spot.swift */; };
+		728562922431FF3900806867 /* mainImage.svg in Resources */ = {isa = PBXBuildFile; fileRef = 728562902431FF3900806867 /* mainImage.svg */; };
+		728839162463D8F400FA7B99 /* ChangeUrlToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728839152463D8F400FA7B99 /* ChangeUrlToImage.swift */; };
+		728839192463E2B300FA7B99 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728839182463E2B300FA7B99 /* UIView.swift */; };
+		72A4E18123F57BB800B7607C /* DatePlanListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4E17F23F57BB800B7607C /* DatePlanListCollectionViewCell.swift */; };
+		72A4E18223F57BB800B7607C /* DatePlanListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A4E18023F57BB800B7607C /* DatePlanListCollectionViewCell.xib */; };
+		72A4E18423F668B600B7607C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4E18323F668B600B7607C /* LoginViewController.swift */; };
+		72A4E18623F68D4D00B7607C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4E18523F68D4D00B7607C /* FirstViewController.swift */; };
+		72A4E18A23F7E3AB00B7607C /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4E18923F7E3AB00B7607C /* api.swift */; };
+		72BED50823EC062E00A254BC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BED50723EC062E00A254BC /* SignUpViewController.swift */; };
+		72BED50C23EC073600A254BC /* ListenBirthyearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BED50B23EC073600A254BC /* ListenBirthyearViewController.swift */; };
+		72BED50E23EC075000A254BC /* ListenLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BED50D23EC075000A254BC /* ListenLocationViewController.swift */; };
+		FBE56472AB8A56BE11588465 /* Pods_date_suggester_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F0D89A25ED034E266600C /* Pods_date_suggester_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		720D080B23E984AE00569622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 720D07EC23E984AE00569622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 720D07F323E984AE00569622;
+			remoteInfo = "date-suggester-iOS";
+		};
+		720D081623E984AF00569622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 720D07EC23E984AE00569622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 720D07F323E984AE00569622;
+			remoteInfo = "date-suggester-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1587CD2E4164064C45F83C7C /* Pods-date-suggester-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-date-suggester-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-date-suggester-iOSTests/Pods-date-suggester-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8F7FF558FA0A03E33E2D2A /* Pods-date-suggester-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-date-suggester-iOS.debug.xcconfig"; path = "Target Support Files/Pods-date-suggester-iOS/Pods-date-suggester-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		720D07F423E984AE00569622 /* date-suggester-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "date-suggester-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		720D07F723E984AE00569622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		720D07F923E984AE00569622 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		720D07FB23E984AE00569622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		720D07FE23E984AE00569622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		720D080023E984AE00569622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		720D080323E984AE00569622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		720D080523E984AE00569622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720D080A23E984AE00569622 /* date-suggester-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "date-suggester-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		720D080E23E984AE00569622 /* date_suggester_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = date_suggester_iOSTests.swift; sourceTree = "<group>"; };
+		720D081023E984AE00569622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720D081523E984AF00569622 /* date-suggester-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "date-suggester-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		720D081923E984AF00569622 /* date_suggester_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = date_suggester_iOSUITests.swift; sourceTree = "<group>"; };
+		720D081B23E984AF00569622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720D082B23E9A84D00569622 /* TutorialViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TutorialViewController.storyboard; sourceTree = "<group>"; };
+		721336E9240CE48400F8E967 /* CustomUnderlineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUnderlineTextField.swift; sourceTree = "<group>"; };
+		7214C7882434802C003EA80B /* userIcon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = userIcon.svg; sourceTree = "<group>"; };
+		7214C78A24348E60003EA80B /* MypageNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageNavigationController.swift; sourceTree = "<group>"; };
+		7215FF13240D600400AB3BBB /* SignUpCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCustomTextField.swift; sourceTree = "<group>"; };
+		721D100023F509DD006DA520 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		721D100223F50E6A006DA520 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		7229FA6424617ABA00D9FD2B /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		724C39CE2452C5500028652A /* UserArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserArea.swift; sourceTree = "<group>"; };
+		72513F5B23EBCFA9007B1499 /* DateFeelingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFeelingViewController.swift; sourceTree = "<group>"; };
+		725E5B73243C0D4B006CC332 /* MyProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileEditViewController.swift; sourceTree = "<group>"; };
+		725F8519244D9E5000E08ADE /* CustomPlofielTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlofielTextField.swift; sourceTree = "<group>"; };
+		726903EB2431DAF5006312E6 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		726903EC2431DAF5006312E6 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		726903ED2431DAF6006312E6 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		726903EE2431DAF6006312E6 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7276AEDF23EAA9B7008864D7 /* DateLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLocationViewController.swift; sourceTree = "<group>"; };
+		7276AEE223EAA9DE008864D7 /* SimplePlanViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimplePlanViewController.storyboard; sourceTree = "<group>"; };
+		7276AEE423EAACC0008864D7 /* DatePlanSuggestionViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlanSuggestionViewControlller.swift; sourceTree = "<group>"; };
+		7276AEE923EABC17008864D7 /* MainPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainPageViewController.storyboard; sourceTree = "<group>"; };
+		7276AEEB23EACE65008864D7 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		7276AEED23EAD1B1008864D7 /* DateplanListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateplanListViewController.swift; sourceTree = "<group>"; };
+		7276AEEF23EAD63C008864D7 /* DatePlanDecideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlanDecideViewController.swift; sourceTree = "<group>"; };
+		7276AEF123EBBB99008864D7 /* DateScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScheduleViewController.swift; sourceTree = "<group>"; };
+		7276AEF323EBC1CD008864D7 /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		7276AEF523EBCADE008864D7 /* DateBudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateBudgetViewController.swift; sourceTree = "<group>"; };
+		7276AEF723EBCE4A008864D7 /* DateTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeViewController.swift; sourceTree = "<group>"; };
+		727C4A5A240362300058AE58 /* AnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerModel.swift; sourceTree = "<group>"; };
+		727C4A5C240362890058AE58 /* CustomYerrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomYerrowButton.swift; sourceTree = "<group>"; };
+		7281E609241F4F5100886634 /* MyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlan.swift; sourceTree = "<group>"; };
+		7281E60B241F4FB200886634 /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		7281E60D241F502900886634 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		728562902431FF3900806867 /* mainImage.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainImage.svg; sourceTree = "<group>"; };
+		728839152463D8F400FA7B99 /* ChangeUrlToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUrlToImage.swift; sourceTree = "<group>"; };
+		728839182463E2B300FA7B99 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		72A4E17F23F57BB800B7607C /* DatePlanListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlanListCollectionViewCell.swift; sourceTree = "<group>"; };
+		72A4E18023F57BB800B7607C /* DatePlanListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePlanListCollectionViewCell.xib; sourceTree = "<group>"; };
+		72A4E18323F668B600B7607C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		72A4E18523F68D4D00B7607C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		72A4E18923F7E3AB00B7607C /* api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		72BED50723EC062E00A254BC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		72BED50B23EC073600A254BC /* ListenBirthyearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenBirthyearViewController.swift; sourceTree = "<group>"; };
+		72BED50D23EC075000A254BC /* ListenLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenLocationViewController.swift; sourceTree = "<group>"; };
+		8703CBD4440D658570221163 /* Pods-date-suggester-iOS-date-suggester-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-date-suggester-iOS-date-suggester-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-date-suggester-iOS-date-suggester-iOSUITests/Pods-date-suggester-iOS-date-suggester-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		975E04545108F6500A92988C /* Pods-date-suggester-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-date-suggester-iOS.release.xcconfig"; path = "Target Support Files/Pods-date-suggester-iOS/Pods-date-suggester-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A1A5729029022119C40DF5AB /* Pods-date-suggester-iOS-date-suggester-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-date-suggester-iOS-date-suggester-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-date-suggester-iOS-date-suggester-iOSUITests/Pods-date-suggester-iOS-date-suggester-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A93D0B8ADE6B69E81562A181 /* Pods_date_suggester_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_date_suggester_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EC67D90F93A7F0AED33027 /* Pods_date_suggester_iOS_date_suggester_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_date_suggester_iOS_date_suggester_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6256DD916C8E9F9EF57374 /* Pods-date-suggester-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-date-suggester-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-date-suggester-iOSTests/Pods-date-suggester-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE4F0D89A25ED034E266600C /* Pods_date_suggester_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_date_suggester_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		720D07F123E984AE00569622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE56472AB8A56BE11588465 /* Pods_date_suggester_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720D080723E984AE00569622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446AC2975B223663913AA477 /* Pods_date_suggester_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720D081223E984AF00569622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E33CD1E0C8EE33EEE99BA6 /* Pods_date_suggester_iOS_date_suggester_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D98F802D4B611FB377F31CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4F0D89A25ED034E266600C /* Pods_date_suggester_iOS.framework */,
+				B8EC67D90F93A7F0AED33027 /* Pods_date_suggester_iOS_date_suggester_iOSUITests.framework */,
+				A93D0B8ADE6B69E81562A181 /* Pods_date_suggester_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		720D07EB23E984AE00569622 = {
+			isa = PBXGroup;
+			children = (
+				725F8518244D7DAB00E08ADE /* Font */,
+				720D07F623E984AE00569622 /* date-suggester-iOS */,
+				720D080D23E984AE00569622 /* date-suggester-iOSTests */,
+				720D081823E984AF00569622 /* date-suggester-iOSUITests */,
+				720D07F523E984AE00569622 /* Products */,
+				780B2EEA4FE7BD75B9F7705C /* Pods */,
+				4D98F802D4B611FB377F31CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		720D07F523E984AE00569622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				720D07F423E984AE00569622 /* date-suggester-iOS.app */,
+				720D080A23E984AE00569622 /* date-suggester-iOSTests.xctest */,
+				720D081523E984AF00569622 /* date-suggester-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		720D07F623E984AE00569622 /* date-suggester-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7285628C2431FE6D00806867 /* Resources */,
+				7276AEE623EABBAB008864D7 /* MainPage */,
+				7276AEE123EAA9C1008864D7 /* SimplePlanPage */,
+				720D082823E9A7DD00569622 /* TutorialPage */,
+				7288391A2463E88300FA7B99 /* Utils */,
+				720D082723E9A7CA00569622 /* common */,
+				720D07F723E984AE00569622 /* AppDelegate.swift */,
+				720D07F923E984AE00569622 /* SceneDelegate.swift */,
+				720D07FB23E984AE00569622 /* ViewController.swift */,
+				720D07FD23E984AE00569622 /* Main.storyboard */,
+				720D080223E984AE00569622 /* LaunchScreen.storyboard */,
+				720D080023E984AE00569622 /* Assets.xcassets */,
+				720D080523E984AE00569622 /* Info.plist */,
+				72A4E18923F7E3AB00B7607C /* api.swift */,
+			);
+			path = "date-suggester-iOS";
+			sourceTree = "<group>";
+		};
+		720D080D23E984AE00569622 /* date-suggester-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				720D080E23E984AE00569622 /* date_suggester_iOSTests.swift */,
+				720D081023E984AE00569622 /* Info.plist */,
+			);
+			path = "date-suggester-iOSTests";
+			sourceTree = "<group>";
+		};
+		720D081823E984AF00569622 /* date-suggester-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				720D081923E984AF00569622 /* date_suggester_iOSUITests.swift */,
+				720D081B23E984AF00569622 /* Info.plist */,
+			);
+			path = "date-suggester-iOSUITests";
+			sourceTree = "<group>";
+		};
+		720D082723E9A7CA00569622 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7276AEF323EBC1CD008864D7 /* AppNavigationController.swift */,
+				725F8519244D9E5000E08ADE /* CustomPlofielTextField.swift */,
+				721D100223F50E6A006DA520 /* UIColorHex.swift */,
+				727C4A5A240362300058AE58 /* AnswerModel.swift */,
+				727C4A5C240362890058AE58 /* CustomYerrowButton.swift */,
+				721336E9240CE48400F8E967 /* CustomUnderlineTextField.swift */,
+				7215FF13240D600400AB3BBB /* SignUpCustomTextField.swift */,
+				7281E609241F4F5100886634 /* MyPlan.swift */,
+				7281E60B241F4FB200886634 /* Plan.swift */,
+				7281E60D241F502900886634 /* Spot.swift */,
+				724C39CE2452C5500028652A /* UserArea.swift */,
+				7229FA6424617ABA00D9FD2B /* UserDefault.swift */,
+				728839182463E2B300FA7B99 /* UIView.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		720D082823E9A7DD00569622 /* TutorialPage */ = {
+			isa = PBXGroup;
+			children = (
+				72A4E18523F68D4D00B7607C /* FirstViewController.swift */,
+				72BED50B23EC073600A254BC /* ListenBirthyearViewController.swift */,
+				72BED50D23EC075000A254BC /* ListenLocationViewController.swift */,
+				72A4E18323F668B600B7607C /* LoginViewController.swift */,
+				720D082B23E9A84D00569622 /* TutorialViewController.storyboard */,
+			);
+			path = TutorialPage;
+			sourceTree = "<group>";
+		};
+		725F8518244D7DAB00E08ADE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				726903EC2431DAF5006312E6 /* NotoSans-Bold.ttf */,
+				726903EE2431DAF6006312E6 /* NotoSans-BoldItalic.ttf */,
+				726903ED2431DAF6006312E6 /* NotoSans-Italic.ttf */,
+				726903EB2431DAF5006312E6 /* NotoSans-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		7276AEE123EAA9C1008864D7 /* SimplePlanPage */ = {
+			isa = PBXGroup;
+			children = (
+				72A4E17F23F57BB800B7607C /* DatePlanListCollectionViewCell.swift */,
+				7276AEDF23EAA9B7008864D7 /* DateLocationViewController.swift */,
+				7276AEF523EBCADE008864D7 /* DateBudgetViewController.swift */,
+				7276AEF723EBCE4A008864D7 /* DateTimeViewController.swift */,
+				72513F5B23EBCFA9007B1499 /* DateFeelingViewController.swift */,
+				7276AEE423EAACC0008864D7 /* DatePlanSuggestionViewControlller.swift */,
+				7276AEE223EAA9DE008864D7 /* SimplePlanViewController.storyboard */,
+			);
+			path = SimplePlanPage;
+			sourceTree = "<group>";
+		};
+		7276AEE623EABBAB008864D7 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				7276AEE923EABC17008864D7 /* MainPageViewController.storyboard */,
+				72BED50723EC062E00A254BC /* SignUpViewController.swift */,
+				7276AEEB23EACE65008864D7 /* MainPageViewController.swift */,
+				7276AEED23EAD1B1008864D7 /* DateplanListViewController.swift */,
+				7276AEEF23EAD63C008864D7 /* DatePlanDecideViewController.swift */,
+				7276AEF123EBBB99008864D7 /* DateScheduleViewController.swift */,
+				721D100023F509DD006DA520 /* MypageViewController.swift */,
+				72A4E18023F57BB800B7607C /* DatePlanListCollectionViewCell.xib */,
+				7214C78A24348E60003EA80B /* MypageNavigationController.swift */,
+				725E5B73243C0D4B006CC332 /* MyProfileEditViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		7285628C2431FE6D00806867 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7214C7882434802C003EA80B /* userIcon.svg */,
+				728562902431FF3900806867 /* mainImage.svg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7288391A2463E88300FA7B99 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				728839152463D8F400FA7B99 /* ChangeUrlToImage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		780B2EEA4FE7BD75B9F7705C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F8F7FF558FA0A03E33E2D2A /* Pods-date-suggester-iOS.debug.xcconfig */,
+				975E04545108F6500A92988C /* Pods-date-suggester-iOS.release.xcconfig */,
+				A1A5729029022119C40DF5AB /* Pods-date-suggester-iOS-date-suggester-iOSUITests.debug.xcconfig */,
+				8703CBD4440D658570221163 /* Pods-date-suggester-iOS-date-suggester-iOSUITests.release.xcconfig */,
+				1587CD2E4164064C45F83C7C /* Pods-date-suggester-iOSTests.debug.xcconfig */,
+				CE6256DD916C8E9F9EF57374 /* Pods-date-suggester-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		720D07F323E984AE00569622 /* date-suggester-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720D081E23E984AF00569622 /* Build configuration list for PBXNativeTarget "date-suggester-iOS" */;
+			buildPhases = (
+				CCCDC29E2302AD32EFABA063 /* [CP] Check Pods Manifest.lock */,
+				720D07F023E984AE00569622 /* Sources */,
+				720D07F123E984AE00569622 /* Frameworks */,
+				720D07F223E984AE00569622 /* Resources */,
+				DD71D76272858ECB58DEED4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "date-suggester-iOS";
+			productName = "date-suggester-iOS";
+			productReference = 720D07F423E984AE00569622 /* date-suggester-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		720D080923E984AE00569622 /* date-suggester-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720D082123E984AF00569622 /* Build configuration list for PBXNativeTarget "date-suggester-iOSTests" */;
+			buildPhases = (
+				84FABD27528AC3519CA85720 /* [CP] Check Pods Manifest.lock */,
+				720D080623E984AE00569622 /* Sources */,
+				720D080723E984AE00569622 /* Frameworks */,
+				720D080823E984AE00569622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				720D080C23E984AE00569622 /* PBXTargetDependency */,
+			);
+			name = "date-suggester-iOSTests";
+			productName = "date-suggester-iOSTests";
+			productReference = 720D080A23E984AE00569622 /* date-suggester-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		720D081423E984AF00569622 /* date-suggester-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720D082423E984AF00569622 /* Build configuration list for PBXNativeTarget "date-suggester-iOSUITests" */;
+			buildPhases = (
+				0F0FA86312D9F69A92358086 /* [CP] Check Pods Manifest.lock */,
+				720D081123E984AF00569622 /* Sources */,
+				720D081223E984AF00569622 /* Frameworks */,
+				720D081323E984AF00569622 /* Resources */,
+				30EE91EC81BD2A696688CE70 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				720D081723E984AF00569622 /* PBXTargetDependency */,
+			);
+			name = "date-suggester-iOSUITests";
+			productName = "date-suggester-iOSUITests";
+			productReference = 720D081523E984AF00569622 /* date-suggester-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		720D07EC23E984AE00569622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = saya;
+				TargetAttributes = {
+					720D07F323E984AE00569622 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					720D080923E984AE00569622 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 720D07F323E984AE00569622;
+					};
+					720D081423E984AF00569622 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 720D07F323E984AE00569622;
+					};
+				};
+			};
+			buildConfigurationList = 720D07EF23E984AE00569622 /* Build configuration list for PBXProject "date-suggester-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 720D07EB23E984AE00569622;
+			productRefGroup = 720D07F523E984AE00569622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				720D07F323E984AE00569622 /* date-suggester-iOS */,
+				720D080923E984AE00569622 /* date-suggester-iOSTests */,
+				720D081423E984AF00569622 /* date-suggester-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		720D07F223E984AE00569622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728562922431FF3900806867 /* mainImage.svg in Resources */,
+				726903EF2431DB4F006312E6 /* NotoSans-Bold.ttf in Resources */,
+				726903F02431DB4F006312E6 /* NotoSans-BoldItalic.ttf in Resources */,
+				726903F12431DB4F006312E6 /* NotoSans-Italic.ttf in Resources */,
+				726903F22431DB4F006312E6 /* NotoSans-Regular.ttf in Resources */,
+				720D080423E984AE00569622 /* LaunchScreen.storyboard in Resources */,
+				7276AEE323EAA9DE008864D7 /* SimplePlanViewController.storyboard in Resources */,
+				720D082C23E9A84E00569622 /* TutorialViewController.storyboard in Resources */,
+				720D080123E984AE00569622 /* Assets.xcassets in Resources */,
+				72A4E18223F57BB800B7607C /* DatePlanListCollectionViewCell.xib in Resources */,
+				720D07FF23E984AE00569622 /* Main.storyboard in Resources */,
+				7276AEEA23EABC17008864D7 /* MainPageViewController.storyboard in Resources */,
+				7214C7892434802C003EA80B /* userIcon.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720D080823E984AE00569622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720D081323E984AF00569622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F0FA86312D9F69A92358086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-date-suggester-iOS-date-suggester-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30EE91EC81BD2A696688CE70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-date-suggester-iOS-date-suggester-iOSUITests/Pods-date-suggester-iOS-date-suggester-iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-date-suggester-iOS-date-suggester-iOSUITests/Pods-date-suggester-iOS-date-suggester-iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-date-suggester-iOS-date-suggester-iOSUITests/Pods-date-suggester-iOS-date-suggester-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FABD27528AC3519CA85720 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-date-suggester-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCDC29E2302AD32EFABA063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-date-suggester-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD71D76272858ECB58DEED4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-date-suggester-iOS/Pods-date-suggester-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-date-suggester-iOS/Pods-date-suggester-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-date-suggester-iOS/Pods-date-suggester-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		720D07F023E984AE00569622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7281E60A241F4F5100886634 /* MyPlan.swift in Sources */,
+				72A4E18623F68D4D00B7607C /* FirstViewController.swift in Sources */,
+				7276AEE023EAA9B7008864D7 /* DateLocationViewController.swift in Sources */,
+				721336EA240CE48400F8E967 /* CustomUnderlineTextField.swift in Sources */,
+				7214C78B24348E60003EA80B /* MypageNavigationController.swift in Sources */,
+				725F851A244D9E5000E08ADE /* CustomPlofielTextField.swift in Sources */,
+				7276AEEC23EACE65008864D7 /* MainPageViewController.swift in Sources */,
+				727C4A5D240362890058AE58 /* CustomYerrowButton.swift in Sources */,
+				7281E60C241F4FB200886634 /* Plan.swift in Sources */,
+				728839162463D8F400FA7B99 /* ChangeUrlToImage.swift in Sources */,
+				725E5B74243C0D4B006CC332 /* MyProfileEditViewController.swift in Sources */,
+				72513F5C23EBCFA9007B1499 /* DateFeelingViewController.swift in Sources */,
+				7276AEF023EAD63C008864D7 /* DatePlanDecideViewController.swift in Sources */,
+				7229FA6524617ABA00D9FD2B /* UserDefault.swift in Sources */,
+				720D07FC23E984AE00569622 /* ViewController.swift in Sources */,
+				727C4A5B240362300058AE58 /* AnswerModel.swift in Sources */,
+				728839192463E2B300FA7B99 /* UIView.swift in Sources */,
+				7276AEE523EAACC0008864D7 /* DatePlanSuggestionViewControlller.swift in Sources */,
+				721D100323F50E6A006DA520 /* UIColorHex.swift in Sources */,
+				7215FF14240D600400AB3BBB /* SignUpCustomTextField.swift in Sources */,
+				72A4E18123F57BB800B7607C /* DatePlanListCollectionViewCell.swift in Sources */,
+				720D07F823E984AE00569622 /* AppDelegate.swift in Sources */,
+				72BED50E23EC075000A254BC /* ListenLocationViewController.swift in Sources */,
+				7276AEF823EBCE4A008864D7 /* DateTimeViewController.swift in Sources */,
+				72BED50C23EC073600A254BC /* ListenBirthyearViewController.swift in Sources */,
+				7276AEF423EBC1CD008864D7 /* AppNavigationController.swift in Sources */,
+				724C39CF2452C5500028652A /* UserArea.swift in Sources */,
+				7276AEF623EBCADE008864D7 /* DateBudgetViewController.swift in Sources */,
+				72BED50823EC062E00A254BC /* SignUpViewController.swift in Sources */,
+				72A4E18A23F7E3AB00B7607C /* api.swift in Sources */,
+				7276AEEE23EAD1B1008864D7 /* DateplanListViewController.swift in Sources */,
+				7276AEF223EBBB99008864D7 /* DateScheduleViewController.swift in Sources */,
+				7281E60E241F502900886634 /* Spot.swift in Sources */,
+				720D07FA23E984AE00569622 /* SceneDelegate.swift in Sources */,
+				72A4E18423F668B600B7607C /* LoginViewController.swift in Sources */,
+				721D100123F509DD006DA520 /* MypageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720D080623E984AE00569622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720D080F23E984AE00569622 /* date_suggester_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720D081123E984AF00569622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720D081A23E984AF00569622 /* date_suggester_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		720D080C23E984AE00569622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 720D07F323E984AE00569622 /* date-suggester-iOS */;
+			targetProxy = 720D080B23E984AE00569622 /* PBXContainerItemProxy */;
+		};
+		720D081723E984AF00569622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 720D07F323E984AE00569622 /* date-suggester-iOS */;
+			targetProxy = 720D081623E984AF00569622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		720D07FD23E984AE00569622 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720D07FE23E984AE00569622 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		720D080223E984AE00569622 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720D080323E984AE00569622 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		720D081C23E984AF00569622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		720D081D23E984AF00569622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		720D081F23E984AF00569622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8F7FF558FA0A03E33E2D2A /* Pods-date-suggester-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = J6V2UNL325;
+				INFOPLIST_FILE = "date-suggester-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.sample.date-suggester-iOS";
+				PRODUCT_NAME = "date-suggester-iOS";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		720D082023E984AF00569622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975E04545108F6500A92988C /* Pods-date-suggester-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = J6V2UNL325;
+				INFOPLIST_FILE = "date-suggester-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.sample.date-suggester-iOS";
+				PRODUCT_NAME = "date-suggester-iOS";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		720D082223E984AF00569622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1587CD2E4164064C45F83C7C /* Pods-date-suggester-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6V2UNL325;
+				INFOPLIST_FILE = "date-suggester-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.sample.date-suggester-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/date-suggester-iOS.app/date-suggester-iOS";
+			};
+			name = Debug;
+		};
+		720D082323E984AF00569622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6256DD916C8E9F9EF57374 /* Pods-date-suggester-iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6V2UNL325;
+				INFOPLIST_FILE = "date-suggester-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.sample.date-suggester-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/date-suggester-iOS.app/date-suggester-iOS";
+			};
+			name = Release;
+		};
+		720D082523E984AF00569622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A5729029022119C40DF5AB /* Pods-date-suggester-iOS-date-suggester-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6V2UNL325;
+				INFOPLIST_FILE = "date-suggester-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.sample.date-suggester-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "date-suggester-iOS";
+			};
+			name = Debug;
+		};
+		720D082623E984AF00569622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8703CBD4440D658570221163 /* Pods-date-suggester-iOS-date-suggester-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6V2UNL325;
+				INFOPLIST_FILE = "date-suggester-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.sample.date-suggester-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "date-suggester-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		720D07EF23E984AE00569622 /* Build configuration list for PBXProject "date-suggester-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720D081C23E984AF00569622 /* Debug */,
+				720D081D23E984AF00569622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720D081E23E984AF00569622 /* Build configuration list for PBXNativeTarget "date-suggester-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720D081F23E984AF00569622 /* Debug */,
+				720D082023E984AF00569622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720D082123E984AF00569622 /* Build configuration list for PBXNativeTarget "date-suggester-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720D082223E984AF00569622 /* Debug */,
+				720D082323E984AF00569622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720D082423E984AF00569622 /* Build configuration list for PBXNativeTarget "date-suggester-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720D082523E984AF00569622 /* Debug */,
+				720D082623E984AF00569622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 720D07EC23E984AE00569622 /* Project object */;
+}
